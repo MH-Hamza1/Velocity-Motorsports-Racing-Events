@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Motorsports | Racing Events</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" data-header>
+        <div class="navbar">
+            <div class="logo">
+                <i class="fas fa-flag-checkered"></i>
+                <h1>Velocity</h1>
+            </div>
+            <nav class="nav-links" data-navbar>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Drivers</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn btn-outline">Login</button>
+                <button class="btn btn-primary">Register</button>
+
+                <div class="menu-toggle-btn" data-menu-toggle-btn>
+                    <button><i class="fas fa-bars"></i></button>
+                    <button><i class="fas fa-xmark"></i></button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Experience the Thrill of High-Speed Racing</h2>
+            <p>Join us for the most exciting racing events of the year. Witness the world's best drivers compete for
+                glory in state-of-the-art machines.</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary">View Upcoming Events</button>
+                <button class="btn btn-outline">Watch Highlights</button>
+            </div>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">14</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">08</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">42</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">19</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Upcoming Events</h2>
+            <p class="section-subtitle">Don't miss these thrilling races from around the world</p>
+        </div>
+        <div class="events-grid">
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/assets/F1.jpg" loading="lazy" alt="" srcset="">
+                    <div class="event-date">OCT 22</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Monaco Grand Prix</h3>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Monte Carlo, Monaco
+                    </div>
+                    <p class="event-desc">The most prestigious race in the F1 calendar, known for its tight corners and
+                        glamorous setting.</p>
+                    <button class="btn btn-primary">Get Tickets</button>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/assets/NASCAR.jpg" loading="lazy" alt="" srcset="">
+                    <div class="event-date">NOV 05</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Daytona 500</h3>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Daytona Beach, USA
+                    </div>
+                    <p class="event-desc">The Great American Race - the most prestigious event in NASCAR with high-speed
+                        action.</p>
+                    <button class="btn btn-primary">Get Tickets</button>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/assets/AMG GT.jpg" loading="lazy" alt="" srcset="">
+                    <div class="event-date">NOV 19</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">24 Hours of Le Mans</h3>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Le Mans, France
+                    </div>
+                    <p class="event-desc">The world's oldest active endurance racing event, testing both man and machine
+                        to their limits.</p>
+                    <button class="btn btn-primary">Get Tickets</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Top Teams</h2>
+            <p class="section-subtitle">Meet the championship contenders</p>
+        </div>
+        <div class="teams-container">
+            <div class="team-card">
+                <div class="team-logo">
+                    <i class="fas fa-horse-head"></i>
+                </div>
+                <h3 class="team-name">Red Stallion Racing</h3>
+                <p class="team-drivers">M. Johnson / A. Rodriguez</p>
+                <div class="team-points">385 PTS</div>
+            </div>
+            <div class="team-card">
+                <div class="team-logo">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3 class="team-name">Lightning Motors</h3>
+                <p class="team-drivers">T. Chen / L. Petrov</p>
+                <div class="team-points">372 PTS</div>
+            </div>
+            <div class="team-card">
+                <div class="team-logo">
+                    <i class="fas fa-dragon"></i>
+                </div>
+                <h3 class="team-name">Dragon Engineering</h3>
+                <p class="team-drivers">S. Yamamoto / R. Silva</p>
+                <div class="team-points">354 PTS</div>
+            </div>
+            <div class="team-card">
+                <div class="team-logo">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <h3 class="team-name">Royal Speedworks</h3>
+                <p class="team-drivers">J. Wilson / K. Schmidt</p>
+                <div class="team-points">341 PTS</div>
+            </div>
+            <div class="team-card">
+                <div class="team-logo">
+                    <i class="fas fa-feather-alt"></i>
+                </div>
+                <h3 class="team-name">Falcon Performance</h3>
+                <p class="team-drivers">D. Miller / P. Costa</p>
+                <div class="team-points">328 PTS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Latest News</h2>
+            <p class="section-subtitle">Stay updated with the latest from the racing world</p>
+        </div>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="/assets/Lambo.jpg" loading="lazy" alt="" srcset="">
+                </div>
+                <div class="news-content">
+                    <div class="news-meta">
+                        <span class="news-category">TECHNOLOGY</span>
+                        <span class="news-date">Oct 10, 2023</span>
+                    </div>
+                    <h3 class="news-title">New Aerodynamic Package Shows Promising Results in Wind Tunnel</h3>
+                    <p class="news-excerpt">Teams are experimenting with revolutionary designs that could change the
+                        face of racing next season.</p>
+                    <a href="#" class="read-more">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="/assets/Alex.jpg" loading="lazy" alt="" srcset="">
+                </div>
+                <div class="news-content">
+                    <div class="news-meta">
+                        <span class="news-category">DRIVER NEWS</span>
+                        <span class="news-date">Oct 8, 2023</span>
+                    </div>
+                    <h3 class="news-title">Rookie Driver Makes History with Back-to-Back Podium Finishes</h3>
+                    <p class="news-excerpt">At just 21 years old, Alex Morgan has become the youngest driver to achieve
+                        this feat in modern racing.</p>
+                    <a href="#" class="read-more">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="/assets/Street Circuit.jpg" loading="lazy" alt="" srcset="">
+                </div>
+                <div class="news-content">
+                    <div class="news-meta">
+                        <span class="news-category">EVENT NEWS</span>
+                        <span class="news-date">Oct 5, 2023</span>
+                    </div>
+                    <h3 class="news-title">New Street Circuit Announced for 2024 Championship</h3>
+                    <p class="news-excerpt">The exciting new track will wind through the city center, offering
+                        spectacular views for fans.</p>
+                    <a href="#" class="read-more">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Velocity Motorsports</h3>
+                <p>Experience the thrill of high-speed racing with the world's premier motorsports organization.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events Calendar</a></li>
+                    <li><a href="#">Teams & Drivers</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Ticket Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
+                <div style="margin-top: 1.5rem;">
+                    <input type="email" placeholder="Your email address"
+                        style="width: 100%; padding: 10px; border-radius: 5px; border: none; background-color: var(--gray); color: white; margin-bottom: 10px;">
+                    <button class="btn btn-primary" style="width: 100%;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Velocity Motorsports. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
