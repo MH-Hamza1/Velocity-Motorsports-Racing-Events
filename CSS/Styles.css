@@ -12,6 +12,7 @@
   --dark: #111114;
   --light: #f4f4f4;
   --gray: #38383f;
+  --off-white: #dfdfdf;
 }
 
 body {
@@ -126,7 +127,7 @@ header.scrolled {
 .btn-outline {
   background-color: transparent;
   color: var(--light);
-  border: 2px solid var(--gray);
+  border: 2px solid var(--off-white);
 }
 
 .btn-outline:hover {
@@ -632,3 +633,4 @@ footer {
     font-size: 2rem;
   }
 }
+
